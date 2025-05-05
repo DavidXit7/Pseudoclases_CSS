@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-texto: rgb(74, 40, 160);
+}
+
+div{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ejercicio1 button:hover{
+    color: steelblue;
+    background-color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 17px;
+}
+
+.oculto{
+    display:none;
+    margin-top:20px;
+    padding:10px;
+    background-color: black;
+    border-left: 4px solid #f4f4;
+    color: white;
+    transition: 1s;
+}
+.oculto:target{
+    display:block;
+}
+.ejercicio2{
+    color: black;
+    text-decoration: none;
+}
+
+.ejercicio3 li:first-child{
+    font-style: italic;
+    color: steelblue;
+    font-weight: 600px;
+}
+
+.ejercicio4-5-6{
+    width: 70%;
+    background-color: rgb(14, 128, 95);
+    padding: 16px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.ejercicio4-5-6 h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.ejercicio4-5-6 input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid slateblue;
+    transition: 0.5s;
+}
+
+.ejercicio4-5-6 input[type="text"]:invalid{
+    border-color: rgb(217, 26, 99);
+}
+
+.ejercicio4-5-6 input[type="email"]{
+    border-color: blue;
+}
+
+.ejercicio4-5-6 input[type="password"]{
+    margin-bottom: 5px;
+}
+
+.ejercicio4-5-6 input:focus{
+    border: 1px solid brown;
+}
+
+.ejercicio7 .textos:only-of-type {
+    color: purple;
+}
+
+.ejercicio8 .parrafo:first-of-type {
+    color: rgb(255, 0, 123);
+}
+
+.ejercicio9 h3 {
+    color: var(--color-texto);
+    font-weight: bold;
+}
+
+.ejercicio10 .barradenavegacion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.barradenavegacion a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    background-color: steelblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.barradenavegacion a:hover{
+    background-color: var(--color-texto);
+    color: white;
+}
