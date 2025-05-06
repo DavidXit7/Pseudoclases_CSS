@@ -111,7 +111,7 @@ body {
 }
 
 .ejercicio10 .barradenavegacion {
-    display: flex; /* Usa flexbox para distribuir los elementos hijos en línea */
+    display: block; /* Usa flexbox para distribuir los elementos hijos en línea */
     justify-content: space-around; /* Distribuye espacio equitativamente alrededor de los elementos hijos */
 }
 
@@ -249,20 +249,21 @@ body {
 
 .barra-nav ul {
     color: rgb(0, 0, 0); /* Color del texto negro para los elementos de lista */
-    display: flex; /* Usa flexbox para distribuir los elementos en línea */
+    display: inline-block; /* Usa flexbox para distribuir los elementos en línea */
     justify-content: center; /* Centra horizontalmente los elementos hijos */
     margin: 0; /* Sin margen */
     padding: 0; /* Sin padding */
 }
 
 .barra-nav a {
-    margin: 0 70px; /* Margen horizontal de 70px a cada lado */
+    margin: 0 200px; /* Margen horizontal de 70px a cada lado */
     background-color: rgb(0, 0, 0); /* Fondo negro para los enlaces */
     padding: 7px; /* Padding interno de 7px */
     color: rgb(255, 255, 255); /* Texto blanco */
     text-decoration: solid; /* Subrayado (nota: valor 'solid' no es estándar, probablemente un error) */
     font-weight: 100; /* Fuente muy delgada */
     border-radius: 5px; /* Bordes redondeados de 5px */
+    align-items: center;
 }
 
 .barra-nav a:hover {
