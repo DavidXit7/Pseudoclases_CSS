@@ -1,325 +1,325 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    margin: 0; /* Elimina el margen por defecto de todos los elementos */
+    padding: 0; /* Elimina el padding por defecto de todos los elementos */
+    box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del ancho y alto de los elementos */
 }
 
 :root {
-    --color-texto: rgb(74, 40, 160);
-    --ejercicio21-titulo: rgb(223, 255, 117);
-    --ejercicio21-colorbackground: rgb(78, 165, 113);
-    --ejercicio21-borde: black;
-    --ejercicio21-texto: white;
-    --ejercicio22-fondo: rgb(185, 188, 191);
-    --ejercicio22-texto: white;
+    --color-texto: rgb(74, 40, 160); /* Define una variable CSS para el color del texto */
+    --ejercicio21-titulo: rgb(223, 255, 117); /* Define una variable CSS para el color del título del ejercicio 21 */
+    --ejercicio21-colorbackground: rgb(78, 165, 113); /* Define una variable CSS para el color de fondo del ejercicio 21 */
+    --ejercicio21-borde: black; /* Define una variable CSS para el color del borde del ejercicio 21 */
+    --ejercicio21-texto: white; /* Define una variable CSS para el color del texto del ejercicio 21 */
+    --ejercicio22-fondo: rgb(185, 188, 191); /* Define una variable CSS para el color de fondo del ejercicio 22 */
+    --ejercicio22-texto: white; /* Define una variable CSS para el color del texto del ejercicio 22 */
 }
 
-div{
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+div {
+    margin-top: 50px; /* Añade un margen superior de 50px a todos los divs */
+    padding-left: 20px; /* Añade un padding izquierdo de 20px a todos los divs */
+    padding-right: 20px; /* Añade un padding derecho de 20px a todos los divs */
 }
 
-body{
-    background-color: var(--ejercicio22-fondo, gray);
+body {
+    background-color: var(--ejercicio22-fondo, gray); /* Establece el color de fondo del body usando la variable definida, con un valor por defecto de gris */
 }
 
-.ejercicio1 button:hover{
-    color: steelblue;
-    background-color: #000;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    transition: 0.5s;
-    font-size: 17px;
+.ejercicio1 button:hover {
+    color: steelblue; /* Cambia el color del texto a steelblue al pasar el mouse sobre el botón */
+    background-color: #000; /* Cambia el color de fondo a negro al pasar el mouse sobre el botón */
+    padding: 10px 20px; /* Añade un padding de 10px arriba y abajo, y 20px a los lados */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Redondea los bordes del botón con un radio de 5px */
+    transition: 0.5s; /* Añade una transición suave de 0.5 segundos para los cambios de estilo */
+    font-size: 17px; /* Establece el tamaño de la fuente a 17px */
 }
 
-.oculto{
-    display:none;
-    margin-top:20px;
-    padding:10px;
-    background-color: black;
-    border-left: 4px solid #f4f4;
-    color: white;
-    transition: 1s;
-}
-.oculto:target{
-    display:block;
-}
-.ejercicio2{
-    color: black;
-    text-decoration: none;
+.oculto {
+    display: none; /* Oculta el elemento por defecto */
+    margin-top: 20px; /* Añade un margen superior de 20px */
+    padding: 10px; /* Añade un padding de 10px */
+    background-color: black; /* Establece el color de fondo a negro */
+    border-left: 4px solid #f4f4; /* Añade un borde izquierdo de 4px de color #f4f4 */
+    color: white; /* Establece el color del texto a blanco */
+    transition: 1s; /* Añade una transición suave de 1 segundo para los cambios de estilo */
 }
 
-.ejercicio3 li:first-child{
-    font-style: italic;
-    color: steelblue;
-    font-weight: 600px;
+.oculto:target {
+    display: block; /* Muestra el elemento cuando es el objetivo de un enlace (target) */
 }
 
-.ejercicio4-5-6{
-    width: 70%;
-    background-color: rgb(14, 128, 95);
-    padding: 16px;
-    margin-left: 20px;
-    border-radius: 5px;
+.ejercicio2 {
+    color: black; /* Establece el color del texto a negro */
+    text-decoration: none; /* Elimina el subrayado del texto */
+}
+
+.ejercicio3 li:first-child {
+    font-style: italic; /* Aplica estilo en cursiva al primer elemento de la lista */
+    color: steelblue; /* Establece el color del texto a steelblue */
+    font-weight: 600; /* Establece el peso de la fuente a 600 (negrita) */
+}
+
+.ejercicio4-5-6 {
+    width: 70%; /* Establece el ancho del elemento al 70% del contenedor padre */
+    background-color: rgb(14, 128, 95); /* Establece el color de fondo a un verde oscuro */
+    padding: 16px; /* Añade un padding de 16px */
+    margin-left: 20px; /* Añade un margen izquierdo de 20px */
+    border-radius: 5px; /* Redondea los bordes del elemento con un radio de 5px */
 }
 
 .ejercicio4-5-6 h3 {
-    text-align: center;
-    margin-bottom: 10px;
+    text-align: center; /* Centra el texto del encabezado h3 */
+    margin-bottom: 10px; /* Añade un margen inferior de 10px */
     font-weight: 600;
 }
 
 .ejercicio4-5-6 input {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    border: 1.5px solid slateblue;
-    transition: 0.5s;
+    display: block; /* Hace que el input sea un elemento de bloque, ocupando toda la línea */
+    width: 100%; /* Establece el ancho del input al 100% del contenedor padre */
+    padding: 12px; /* Añade un padding de 12px alrededor del contenido del input */
+    border: 1.5px solid slateblue; /* Establece un borde de 1.5px de color slateblue */
+    transition: 0.5s; /* Aplica una transición suave de 0.5 segundos para cambios en el estilado */
 }
 
-.ejercicio4-5-6 input[type="text"]:invalid{
-    border-color: rgb(217, 26, 99);
+.ejercicio4-5-6 input[type="text"]:invalid {
+    border-color: rgb(217, 26, 99); /* Cambia el color del borde a un color rojo fuerte cuando el input de texto es inválido */
 }
 
-.ejercicio4-5-6 input[type="email"]{
-    border-color: blue;
+.ejercicio4-5-6 input[type="email"] {
+    border-color: blue; /* Cambia el color del borde a azul para los inputs de tipo email */
 }
 
-.ejercicio4-5-6 input[type="password"]{
-    margin-bottom: 5px;
+.ejercicio4-5-6 input[type="password"] {
+    margin-bottom: 5px; /* Añade un margen inferior de 5px sólo en los inputs de tipo contraseña */
 }
 
-.ejercicio4-5-6 input:focus{
-    border: 1px solid brown;
+.ejercicio4-5-6 input:focus {
+    border: 1px solid brown; /* Cambia el borde a 1px sólido color marrón cuando el input está enfocado */
 }
 
 .ejercicio7 .textos:only-of-type {
-    color: purple;
+    color: purple; /* Aplica color púrpura al elemento con clase textos si es el único de su tipo dentro de su contenedor */
 }
 
 .ejercicio8 .parrafo:first-of-type {
-    color: rgb(255, 0, 123);
+    color: rgb(255, 0, 123); /* Aplica color rosa fuerte al primer párrafo dentro de ejercicio8 */
 }
 
 .ejercicio9 h3 {
-    color: var(--color-texto);
-    font-weight: bold;
+    color: var(--color-texto); /* Establece el color del encabezado h3 usando la variable global --color-texto */
+    font-weight: bold; /* Aplica negrita al texto */
 }
 
 .ejercicio10 .barradenavegacion {
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* Usa flexbox para distribuir los elementos hijos en línea */
+    justify-content: space-around; /* Distribuye espacio equitativamente alrededor de los elementos hijos */
 }
 
 .barradenavegacion a {
-    text-decoration: none;
-    font-weight: 500;
-    color: black;
-    background-color: steelblue;
-    padding: 10px;
-    border-radius: 5px;
+    text-decoration: none; /* Elimina el subrayado estándar de los enlaces */
+    font-weight: 500; /* Aplica un peso de fuente medio */
+    color: black; /* Establece el color del texto a negro */
+    background-color: steelblue; /* Establece el fondo azul acero */
+    padding: 10px; /* Añade un padding de 10px por todos lados */
+    border-radius: 5px; /* Redondea las esquinas con radio de 5px */
 }
 
-.barradenavegacion a:hover{
-    background-color: var(--color-texto);
-    color: white;
+.barradenavegacion a:hover {
+    background-color: var(--color-texto); /* Cambia el fondo al color definido en la variable --color-texto cuando se pasa el mouse */
+    color: white; /* Cambia el color del texto a blanco en el hover */
 }
 
-.ejercicio11 h1::before, h2::before, h3::before{
-    content: "🐱";
-    margin-right: 5px;
+.ejercicio11 h1::before, h2::before, h3::before {
+    content: "🐱"; /* Inserta el emoji de gato antes de los encabezados h1, h2 y h3 en ejercicio11 */
+    margin-right: 5px; /* Añade un margen derecho de 5px para separar el emoji del texto */
 }
 
 .ejercicio12 p::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: #3498db; /* Color de la línea */
-    margin-top: 5px; /* Espacio entre el texto y la línea */
+    content: ""; /* Crea un pseudo-elemento vacío */
+    display: block; /* Hace que el pseudo-elemento sea un bloque */
+    width: 100%; /* Ocupa todo el ancho del párrafo */
+    height: 3px; /* Establece altura de 3px para el pseudo-elemento */
+    background-color: #3498db; /* Da color azul a la línea debajo del párrafo */
+    margin-top: 5px; /* Añade un espacio de 5px entre el texto y la línea */
 }
 
 .ejercicio13 .boton {
-    position: relative;
-    padding: 15px 30px;
-    font-size: 18px;
-    color: white;
-    background-color: #3498db;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    position: relative; /* Posiciona el botón relativamente para que el pseudo-elemento pueda posicionarse dentro */
+    padding: 15px 30px; /* Define espacio interno: 15px arriba/abajo, 30px a los lados */
+    font-size: 18px; /* Tamaño de fuente de 18px */
+    color: white; /* Color del texto blanco */
+    background-color: #3498db; /* Fondo azul */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor a puntero al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados de 5px */
 }
 
 .ejercicio13 .boton::after {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: -1;
-    border-radius: 5px;
+    content: ""; /* Pseudo-elemento vacío */
+    position: absolute; /* Posicionado absolutamente respecto al botón */
+    top: 5px; /* 5px desde arriba */
+    left: 5px; /* 5px desde la izquierda */
+    width: 100%; /* Ocupa todo el ancho del botón */
+    height: 100%; /* Ocupa toda la altura del botón */
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo negro semitransparente */
+    z-index: -1; /* Coloca este pseudo-elemento detrás del contenido del botón */
+    border-radius: 5px; /* Coincide con el radio de borde del botón */
 }
 
-.ejercicio14 .cita{
-    font-style: italic; 
-    margin: 20px;
-    color: #333;
+.ejercicio14 .cita {
+    font-style: italic; /* Texto en cursiva */
+    margin: 20px; /* Margen alrededor de 20px */
+    color: #333; /* Color gris oscuro para el texto */
 }
 
 .ejercicio14 .cita::before, .cita::after {
-    content: "''";
+    content: "''"; /* Añade comillas simples antes y después del texto de la cita */
 }
-
 
 .ejercicio15 {
-    position: relative;
-    display: inline-block;
+    position: relative; /* Posiciona relativamente para elementos hijos absolutos */
+    display: inline-block; /* Se comporta como un bloque en línea, ajusta tamaño según contenido */
 }
 
-.ejercicio15::before{
-    content: "🔎";
-    position: absolute;
-    padding-left: 10px;
-    padding-top: 28px;
-    transform: translateY(-50%);
+.ejercicio15::before {
+    content: "🔎"; /* Inserta un emoji lupa antes del contenido */
+    position: absolute; /* Posicionado absolutamente dentro del contenedor relativo */
+    padding-left: 10px; /* Padding izquierdo para separar el emoji */
+    padding-top: 28px; /* Padding superior para posicionar verticalmente */
+    transform: translateY(-50%); /* Mueve verticalmente para centrar el emoji respecto al input */
 }
 
 .ejercicio15 input {
-    padding-left: 30px;           
-    height: 32px;
-    font-size: 14px;
-    border: 1px solid #000;
-    background-color: rgb(135, 188, 232);
-    border-radius: 4px;
+    padding-left: 30px; /* Padding izquierdo para dejar espacio a la lupa */
+    height: 32px; /* Altura fija de 32px */
+    font-size: 14px; /* Tamaño de fuente de 14px */
+    border: 1px solid #000; /* Borde negro sólido de 1px */
+    background-color: rgb(135, 188, 232); /* Fondo azul claro */
+    border-radius: 4px; /* Bordes ligeramente redondeados de 4px */
 }
 
 .ejercicio16 .imagen {
-    position: relative;   /* Permite mover la imagen desde su posición normal */
-    top: 5px;            
-    left: 20px;         
+    position: relative; /* Permite mover la imagen respecto a su posición inicial */
+    top: 5px; /* Mueve la imagen 5px hacia abajo */
+    left: 20px; /* Mueve la imagen 20px hacia la derecha */
 }
 
 .ejercicio17 {
-    --color-fondo-card: #f9f9f9;
-    --color-borde: #000;
+    --color-fondo-card: #f9f9f9; /* Variable para el fondo de la tarjeta */
+    --color-borde: #000; /* Variable para el borde de la tarjeta */
 
-    position: relative;            /* Necesario para que el botón se posicione dentro */
-    width: 300px;
-    padding: 20px;
-    background-color: var(--color-fondo-card);
-    border: 1px solid var(--color-borde);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    font-family: sans-serif;
-    margin: 20px;
+    position: relative; /* Necesario para posicionar elementos hijos como el botón */
+    width: 300px; /* Ancho fijo de 300px */
+    padding: 20px; /* Padding interno de 20px */
+    background-color: var(--color-fondo-card); /* Aplica el color de fondo de la tarjeta */
+    border: 1px solid var(--color-borde); /* Borde sólido de 1px usando la variable de color */
+    border-radius: 8px; /* Bordes redondeados con radio de 8px */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave alrededor de la tarjeta */
+    font-family: sans-serif; /* Fuente sin serifas */
+    margin: 20px; /* Margen externo de 20px */
 }
 
 .ejercicio17 .eliminar {
-    --color-X: gray;
+    --color-X: gray; /* Variable local para el color del botón eliminar */
 
-    position: absolute;           /* Posiciona el botón dentro de .tarjeta */
-    top: 10px;                    /* A 10px del borde superior */
-    right: 10px;                  /* A 10px del borde derecho */
-    background: none;
-    border: none;
-    font-size: 18px;
-    color: var(--color-X);
-    cursor: pointer;
-    transition: color 0.5s;
+    position: absolute; /* Posiciona el botón dentro de la tarjeta */
+    top: 10px; /* A 10px del borde superior */
+    right: 10px; /* A 10px del borde derecho */
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    font-size: 18px; /* Tamaño de fuente para el icono o texto */
+    color: var(--color-X); /* Aplica la variable de color gris */
+    cursor: pointer; /* Cambia el cursor a puntero para indicar que es clickeable */
+    transition: color 0.5s; /* Transición suave para el cambio de color */
 }
 
 .ejercicio17 .eliminar:hover {
-    color: red;                   /* Cambia de color al pasar el mouse */
+    color: red; /* Cambia el color a rojo cuando se pasa el mouse sobre el botón eliminar */
 }
 
 .ejercicio18 .barra-nav {
-    position: fixed;           /* Fija la barra al viewport */
-    top: 0;                    /* En la parte superior */
-    left: 0;
-    width: 100%;               /* Ocupar todo el ancho */
-    background-color: none;    /* Color de fondo */
-    padding: 15px 0;
-    z-index: 1000;             /* Asegura que esté por encima de otros elementos */
+    position: fixed; /* Fija la barra de navegación en la ventana del navegador */
+    top: 0; /* La posiciona en la parte superior */
+    left: 0; /* Alinea la barra a la izquierda */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    background-color: none; /* Sin color de fondo definido */
+    padding: 15px 0; /* Padding superior e inferior de 15px, cero a los lados */
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
 }
 
 .barra-nav ul {
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    color: rgb(0, 0, 0); /* Color del texto negro para los elementos de lista */
+    display: flex; /* Usa flexbox para distribuir los elementos en línea */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
 }
 
 .barra-nav a {
-    margin: 0 70px;
-    background-color: rgb(0, 0, 0);
-    padding: 7px;
-    color: rgb(255, 255, 255);
-    text-decoration:solid;
-    font-weight: 100;
-    border-radius: 5px;
+    margin: 0 70px; /* Margen horizontal de 70px a cada lado */
+    background-color: rgb(0, 0, 0); /* Fondo negro para los enlaces */
+    padding: 7px; /* Padding interno de 7px */
+    color: rgb(255, 255, 255); /* Texto blanco */
+    text-decoration: solid; /* Subrayado (nota: valor 'solid' no es estándar, probablemente un error) */
+    font-weight: 100; /* Fuente muy delgada */
+    border-radius: 5px; /* Bordes redondeados de 5px */
 }
 
-
 .barra-nav a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayado al pasar el mouse */
 }
 
 .ejercicio19 .caja {
-    position: absolute;    /* Necesario para que z-index funcione como se espera */
-    width: 100px;
-    height: 100px;
-    color: white;
-    font-size: 16px;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    border-radius: 15px;
+    position: absolute; /* Posiciona la caja con posición absoluta */
+    width: 100px; /* Ancho fijo de 100px */
+    height: 100px; /* Altura fija de 100px */
+    color: white; /* Texto blanco */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    display: block; /* Display en bloque */
+    align-items: center; /* Alinea elementos hijos al centro (no afecta a block directamente) */
+    justify-content: center; /* Justifica contenido al centro (no afecta a block directamente) */
+    font-family: sans-serif; /* Fuente sin serifas */
+    border-radius: 15px; /* Bordes redondeados de 15px */
 }
 
 .ejercicio19 .caja1 {
-    background-color: royalblue;
-    margin: 0 auto;
-    left: 40px;
-    z-index: 1;            /* Esta caja estará detrás */
+    background-color: royalblue; /* Fondo azul royla */
+    margin: 0 auto; /* Centrado horizontal automático */
+    left: 40px; /* Desplazamiento a 40px de la izquierda */
+    z-index: 1; /* Nivel z bajo, estará detrás de elementos con z-index mayor */
 }
 
 .ejercicio19 .caja2 {
-    background-color: tomato;
-    left: 100px;
-    z-index: 2;            /* Esta caja estará encima */
+    background-color: tomato; /* Fondo rojo tomate */
+    left: 100px; /* Desplazamiento a 100px de la izquierda */
+    z-index: 2; /* Nivel z más alto, estará encima de caja1 */
 }
 
 .ejercicio20 {
-    position: relative;
-    padding-top: 500px;
+    position: relative; /* Posiciona relativamente para contener elementos absolutos */
+    padding-top: 500px; /* Padding superior importante para dar espacio vertical */
 }
 
 .card1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 320px;
-    padding: 20px;
-    background-color: var(--ejercicio21-colorbackground);
-    border-radius: 10px;
-    box-shadow: 0 6px 16px black;
-    text-align: center;
+    position: absolute; /* Posiciona la tarjeta de forma absoluta */
+    top: 50%; /* Ubica la tarjeta al 50% desde arriba del contenedor */
+    left: 50%; /* Ubica la tarjeta al 50% desde la izquierda del contenedor */
+    transform: translate(-50%, -50%); /* Centra la tarjeta exactamente, desplazando la mitad de su tamaño */
+    width: 320px; /* Ancho fijo de 320px */
+    padding: 20px; /* Padding interno de 20px */
+    background-color: var(--ejercicio21-colorbackground); /* Usa variable para color de fondo */
+    border-radius: 10px; /* Bordes redondeados de 10px */
+    box-shadow: 0 6px 16px black; /* Sombra negra alrededor */
+    text-align: center; /* Centra el texto */
 }
 
 .card1 h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    margin-top: 5px;
-    color: var(--ejercicio21-titulo);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Familia de fuentes específica */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 5px; /* Margen superior de 5px */
+    color: var(--ejercicio21-titulo); /* Color del texto usando variable CSS */
 }
 
 .card1 p {
-    color: var(--ejercicio21-texto);
+    color: var(--ejercicio21-texto); /* Color del texto usando variable CSS */
 }
